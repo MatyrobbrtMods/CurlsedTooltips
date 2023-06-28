@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.matyrobbrt.curlsedtooltips.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "curlsedtooltips.refmap.json",
+  "mixins": [],
+  "client": [
+    "AbstractContainerScreenMixin",
+    "GuiGraphicsMixin"
+  ],
+  "minVersion": "0.8.5"
+}
