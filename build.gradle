@@ -89,7 +89,7 @@ publishing {
         register('mavenJava', MavenPublication) {
             artifacts = [jar, sourcesJar]
             artifactId = 'curlsedtooltips'
-            version = project.minecraft_version + '-' + project.minecraft_version
+            version = project.minecraft_version + '-' + project.version
         }
     }
     repositories {
